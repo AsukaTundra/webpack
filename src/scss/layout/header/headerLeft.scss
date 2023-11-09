@@ -1,0 +1,32 @@
+.header__left {
+  display: flex;
+
+  .left__button {
+    margin-left: 16px;
+    background-image: url(/src/img/header/left/burger.svg);
+    order: 0;
+  }
+
+  .left__link {
+    width: 96.548px;
+    height: 50.815px;
+    margin: 18.59px 0 0 16.73px;
+    order: 1;
+
+    @media (min-width: 768px) {
+      margin-left: 20.73px;
+    }
+  }
+
+  .left--border {
+    width: 2px;
+    height: 32px;
+    margin: 28px 0 0 16.73px;
+    order: 1;
+
+    @media (min-width: 768px) {
+      order: 0;
+      margin-left: 20px;
+    }
+  }
+}

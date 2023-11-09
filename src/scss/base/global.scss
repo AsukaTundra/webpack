@@ -1,0 +1,32 @@
+$bgColor: #f8f8f8;
+$whiteColor: #ffffff;
+$borderBColor: #d9fff5;
+$text: #1b1c21;
+$liteText: #7e7e82;
+$fontSize: 16px;
+$liteFontSize: 14px;
+
+body {
+  margin: 0;
+  font-family: 'TTLakes', sans-serif;
+  background-color: $bgColor;
+  color: $text;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.btn--off {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
