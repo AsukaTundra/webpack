@@ -1,0 +1,35 @@
+.about__services {
+  display: flex;
+  margin: 0 0 24px 16px;
+  flex-wrap: nowrap;
+  overflow: scroll;
+
+  @media (min-width: 1120px) {
+    flex-wrap: wrap;
+  }
+
+  .about__button {
+    font-family: inherit;
+    padding: 8px 16px 8px 18px;
+  }
+
+  .active {
+    background-color: $focusColor;
+    border: 2px solid #b8ffec;
+    border-radius: 6px;
+  }
+
+  .about--text {
+    color: $navText;
+    font-size: $mainFontSize;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-wrap: nowrap;
+  }
+}
+
+.about__services::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

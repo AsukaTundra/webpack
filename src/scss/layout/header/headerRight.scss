@@ -6,10 +6,8 @@
     margin-left: 0;
   }
 
-  .right--border {
+  .header--border {
     display: none;
-    width: 2px;
-    height: 32px;
     margin: 28px 0 0 20px;
 
     @media (min-width: 768px) {
@@ -17,12 +15,12 @@
     }
   }
 
-  .right__button:nth-child(2) {
+  .header__button:nth-child(2) {
     background-image: url(/src/img/header/right/repair.svg);
     margin-left: 20px;
   }
 
-  .right__button:nth-child(3) {
+  .header__button:nth-child(3) {
     background-image: url(/src/img/header/right/checkstatus.svg);
     margin-left: 16px;
     margin-right: 24px;

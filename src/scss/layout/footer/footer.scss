@@ -1,0 +1,42 @@
+.footer {
+  max-width: 1120px;
+  margin: auto;
+  padding-top: 16px;
+  border-top: 1px solid $borderBlockColor;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 32px;
+  }
+
+  .ctr {
+    text-align: center;
+    margin: 0 10px 16px 10px;
+  }
+
+  .footer__authors {
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  .footer__political {
+    @media (min-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  .footer__ofera {
+    @media (min-width: 768px) {
+      text-align: right;
+    }
+  }
+
+  .footer--text {
+    color: $navText;
+    font-size: $optFontSize;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}

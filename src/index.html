@@ -10,29 +10,98 @@
     <title>CSP</title>
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <div class="header__left">
-        <button class="left__button btn btn--off"> </button>
-        <a class="left__link" href="#">
+        <button class="header__button btn btn--off"> </button>
+        <a class="header__link" href="#">
           <img src="/src/img/header/left/logo.svg" alt="logo" />
         </a>
-        <img class="left--border" src="/src/img/header/divider.svg" alt="" />
+        <img
+          class="header--border brdr"
+          src="/src/img/header/divider.svg"
+          alt=""
+        />
       </div>
       <div class="header__center">
-        <button class="center__button btn btn--off"> </button>
-        <button class="center__button btn btn--off"> </button>
-        <button class="center__button btn btn--off"> </button>
+        <button class="header__button btn btn--off"> </button>
+        <button class="header__button btn btn--off"> </button>
+        <button class="header__button btn btn--off"> </button>
       </div>
-      <div class="header__right">
-        <img class="right--border" src="/src/img/header/divider.svg" alt="" />
-        <button class="right__button btn btn--off"> </button>
-        <button class="right__button btn btn--off"> </button>
+      <div class="header__right"
+        ><img
+          class="header--border brdr"
+          src="/src/img/header/divider.svg"
+          alt=""
+        />
+        <button class="header__button btn btn--off"> </button>
+        <button class="header__button btn btn--off"> </button>
       </div>
     </header>
+    <!-- page -->
     <main class="page">
+      <h1 class="page--title">Услуги и сервисы</h1>
+      <!-- page-about -->
       <section class="page__about">
-        <h1 class="about--title">Услуги и сервисы</h1>
+        <div class="about__services">
+          <button class="about__button btn--off active">
+            <p class="about--text">Ремонтируемые устройства</p>
+          </button>
+          <button class="about__button btn--off">
+            <p class="about--text">Дополнительные услуги</p>
+          </button>
+          <button class="about__button btn--off">
+            <p class="about--text">Цены на услуги</p>
+          </button>
+          <button class="about__button btn--off">
+            <p class="about--text">Адреса сервисных центров</p>
+          </button>
+          <button class="about__button btn--off">
+            <p class="about--text">Специальные цены</p>
+          </button>
+          <button class="about__button btn--off">
+            <p class="about--text">Отзывы</p>
+          </button>
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- сука ошибка тут -->
+            <p class="about--p">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p class="about--p two">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера
+              <span class="about--p three">
+                , что подтверждает большое количество постоянных клиентов. Мы
+                гордимся тем, что к нам обращаются по рекомендациям и, в свою
+                очередь, советуют нас родным и близким.
+              </span>
+            </p>
+            <button class="about__button btn--off">
+              <div class="about--icon"></div>
+              <p class="about--text">Читать далее</p>
+            </button>
+          </div>
+          <img class="about--img" src="./img/about/MG3223.jpg" alt="" />
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__authors ctr">
+        <p class="footer--text">© 2019 CPS<br />Разработано командой Apesong</p>
+      </div>
+      <div class="footer__political ctr">
+        <p class="footer--text">Политика конфиденциальности</p>
+      </div>
+      <div class="footer__ofera ctr">
+        <p class="footer--text">
+          Информация, размещенная на данной странице, не является публичной
+          офертой
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

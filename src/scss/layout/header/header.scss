@@ -1,9 +1,9 @@
 .header {
   display: flex;
   height: 88px;
-  min-width: 320px;
-  background-color: $whiteColor;
-  border-bottom: 1px solid $borderBColor;
+  background-color: $focusColor;
+  border-bottom: 1px solid $borderBlockColor;
+  margin-bottom: 24px;
 
   @media (min-width: 1440px) {
     display: none;
@@ -13,5 +13,10 @@
     width: 40px;
     height: 40px;
     margin-top: 24px;
+  }
+
+  .brdr {
+    width: 2px;
+    height: 32px;
   }
 }

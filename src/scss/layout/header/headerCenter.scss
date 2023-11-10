@@ -6,16 +6,16 @@
     margin-left: auto;
   }
 
-  .center__button:nth-child(1) {
+  .header__button:nth-child(1) {
     background-image: url(/src/img/header/center/call.svg);
   }
 
-  .center__button:nth-child(2) {
+  .header__button:nth-child(2) {
     background-image: url(/src/img/header/center/chat.svg);
     margin-left: 16px;
   }
 
-  .center__button:nth-child(3) {
+  .header__button:nth-child(3) {
     background-image: url(/src/img/header/center/profile.svg);
     margin-left: 16px;
   }

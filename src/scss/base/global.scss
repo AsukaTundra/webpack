@@ -1,16 +1,19 @@
-$bgColor: #f8f8f8;
-$whiteColor: #ffffff;
-$borderBColor: #d9fff5;
-$text: #1b1c21;
-$liteText: #7e7e82;
-$fontSize: 16px;
-$liteFontSize: 14px;
+$backgroundColor: #f8f8f8;
+$focusColor: #ffffff;
+$borderBlockColor: #d9fff5;
+
+$mainText: #1b1c21;
+$navText: #7e7e82;
+
+$mainFontSize: 16px;
+$optFontSize: 14px;
 
 body {
   margin: 0;
+  min-width: 320px;
   font-family: 'TTLakes', sans-serif;
-  background-color: $bgColor;
-  color: $text;
+  background-color: $backgroundColor;
+  color: $mainText;
 }
 
 ul,

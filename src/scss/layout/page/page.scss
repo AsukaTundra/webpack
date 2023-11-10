@@ -1,0 +1,19 @@
+.page {
+  max-width: 1120px;
+  margin: auto;
+
+  .page--title {
+    margin-bottom: 24px;
+    padding-left: 16px;
+    background-image: url(/src/img/about/highlight.svg);
+    background-repeat: no-repeat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+
+    @media (min-width: 1120px) {
+      background-image: none;
+    }
+  }
+}
