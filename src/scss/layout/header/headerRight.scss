@@ -2,25 +2,25 @@
   display: flex;
   margin-left: auto;
 
-  @media (min-width: 768px) {
+  @media (min-width: $desctopScr) {
     margin-left: 0;
   }
 
-  .header--border {
+  .right--border {
     display: none;
     margin: 28px 0 0 20px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $desctopScr) {
       display: block;
     }
   }
 
-  .header__button:nth-child(2) {
+  .right__button:nth-child(2) {
     background-image: url(/src/img/header/right/repair.svg);
     margin-left: 20px;
   }
 
-  .header__button:nth-child(3) {
+  .right__button:nth-child(3) {
     background-image: url(/src/img/header/right/checkstatus.svg);
     margin-left: 16px;
     margin-right: 24px;

@@ -2,58 +2,60 @@
   display: flex;
   flex-wrap: wrap;
 
-  @media (min-width: 768px) {
+  @media (min-width: $desctopScr) {
     flex-wrap: nowrap;
   }
 
-  .about__text {
-    @media (min-width: 768px) {
+  .content__text {
+    @media (min-width: $desctopScr) {
+      margin-left: 8px;
       min-width: 50%;
+    }
+
+    @media (min-width: $bigDesctopScr) {
+      margin-left: 16px;
     }
   }
 
-  .about--p {
+  .content--p {
     margin: 0 16px 16px 16px;
     font-size: $optFontSize;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.2px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $desctopScr) {
       margin-right: 36px;
     }
   }
 
-  .about--p .two {
-    display: none;
+  .content--p:nth-child(2) {
+    @media (min-width: $desctopScr) {
+      display: block;
+    }
+  }
 
-    @media (min-width: 768px) {
+  .content--span {
+    @media (min-width: $bigDesctopScr) {
       display: inline;
     }
   }
 
-  .about--p .three {
-    display: none;
-
-    @media (min-width: 1120px) {
-      display: inline;
-    }
-  }
-
-  .about__button {
+  .content__button {
     display: flex;
     margin: 0 0 16px 16px;
     height: 24px;
   }
 
-  .about--icon {
+  .content--icon {
     width: 24px;
     height: 24px;
     background-image: url(/src/img/about/expand.svg);
     background-repeat: no-repeat;
   }
 
-  .about--text {
+  .content--text {
+    padding-left: 8px;
     color: $mainText;
     font-family: 'TTlakes';
     font-size: $mainFontSize;
@@ -62,11 +64,11 @@
     letter-spacing: -0.2px;
   }
 
-  .about--img {
+  .content--img {
     min-width: 320px;
     border-radius: 6px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $desctopScr) {
       margin-right: 24px;
     }
   }

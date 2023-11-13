@@ -1,28 +1,28 @@
 .header__left {
   display: flex;
 
-  .header__button {
+  .left__button {
     margin-left: 16px;
     background-image: url(/src/img/header/left/burger.svg);
     order: 0;
   }
 
-  .header__link {
+  .left__link {
     width: 96.548px;
     height: 50.815px;
     margin: 18.59px 0 0 16.73px;
     order: 1;
 
-    @media (min-width: 768px) {
+    @media (min-width: $desctopScr) {
       margin-left: 20.73px;
     }
   }
 
-  .header--border {
+  .left--border {
     margin: 28px 0 0 16.73px;
     order: 1;
 
-    @media (min-width: 768px) {
+    @media (min-width: $desctopScr) {
       order: 0;
       margin-left: 20px;
     }

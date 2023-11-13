@@ -7,8 +7,18 @@
 @import './layout/header/headerRight.scss';
 
 @import './layout/page/page.scss';
-@import './layout/page/about/about.scss';
+
 @import './layout/page/about/aboutServices.scss';
 @import './layout/page/about/aboutContent.scss';
+
+@import './layout/page/brands/brandsHeader.scss';
+@import './layout/page/brands/brandsSwiper.scss';
+@import './layout/page/brands/brandsButton.scss';
+
+@import './layout/page/types/typesHeader.scss';
+@import './layout/page/types/typesSwiper.scss';
+@import './layout/page/types/typesButton.scss';
+
+@import './layout/swiper/swiperCore.scss';
 
 @import './layout/footer/footer.scss';

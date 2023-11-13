@@ -1,0 +1,33 @@
+.page__types {
+  .swiper {
+    height: 220px;
+
+    @media (min-width: $desctopScr) {
+      height: auto;
+    }
+  }
+
+  .swiper-slide {
+    max-width: 240px;
+  }
+
+  .swiper-item {
+    position: relative;
+    height: 160px;
+  }
+
+  .swiper-text {
+    margin: 16px 0 0 16px;
+    color: $mainText;
+    font-size: $mainFontSize;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  .swiper-link {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 75%;
+  }
+}

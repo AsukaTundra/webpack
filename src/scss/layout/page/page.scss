@@ -2,6 +2,10 @@
   max-width: 1120px;
   margin: auto;
 
+  @media (min-width: 1440px) {
+    margin-top: 42px;
+  }
+
   .page--title {
     margin-bottom: 24px;
     padding-left: 16px;
@@ -12,8 +16,21 @@
     line-height: 40px;
     letter-spacing: -0.6px;
 
-    @media (min-width: 1120px) {
+    @media (min-width: $desctopScr) {
+      padding-left: 24px;
+    }
+
+    @media (min-width: $bigDesctopScr) {
+      padding-left: 32px;
       background-image: none;
     }
+  }
+
+  .page__about {
+    margin-bottom: 26px;
+  }
+
+  .page__brands {
+    margin-bottom: 26px;
   }
 }

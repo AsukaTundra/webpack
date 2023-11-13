@@ -4,11 +4,16 @@
   flex-wrap: nowrap;
   overflow: scroll;
 
-  @media (min-width: 1120px) {
+  @media (min-width: $desctopScr) {
+    margin-left: 24px;
+  }
+
+  @media (min-width: $bigDesctopScr) {
+    margin-left: 32px;
     flex-wrap: wrap;
   }
 
-  .about__button {
+  .services__button {
     font-family: inherit;
     padding: 8px 16px 8px 18px;
   }
@@ -19,7 +24,7 @@
     border-radius: 6px;
   }
 
-  .about--text {
+  .services--text {
     color: $navText;
     font-size: $mainFontSize;
     font-weight: 500;
