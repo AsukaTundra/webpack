@@ -1,0 +1,86 @@
+.price__table {
+  display: none;
+  width: 720px;
+  margin: auto;
+  font-size: $optFontSize;
+
+  @media (min-width: $desctopScr) {
+    display: block;
+  }
+
+  @media (min-width: $bigDesctopScr) {
+    width: 1056px;
+  }
+
+  .price__title {
+    display: flex;
+    color: $navText;
+  }
+
+  .price--servise {
+    margin: 32px 0 16px 16px;
+    width: 372px;
+
+    @media (min-width: $bigDesctopScr) {
+      margin-left: 24px;
+      width: 470px;
+    }
+  }
+
+  .price--price {
+    margin: 32px 0 16px 0;
+    width: 96px;
+
+    @media (min-width: $bigDesctopScr) {
+      width: 227px;
+    }
+  }
+
+  .price--date {
+    margin: 32px 0 16px 0;
+    width: 101px;
+
+    @media (min-width: $bigDesctopScr) {
+      width: 192px;
+    }
+  }
+
+  .price__button {
+    position: block;
+    margin: auto 0;
+  }
+
+  .price__list {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: white;
+  }
+
+  .price__item {
+    width: 688px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+
+    @media (min-width: $bigDesctopScr) {
+      width: 1008px;
+    }
+
+    .price--servise {
+      margin: 23px 0 16px 0;
+    }
+
+    .price--price {
+      margin: 23px 0;
+    }
+
+    .price--date {
+      margin: 23px 0;
+    }
+  }
+
+  .price__item:last-child {
+    border: none;
+  }
+}

@@ -1,0 +1,48 @@
+.page__button {
+  display: none;
+  margin-top: 24px;
+  height: 24px;
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  @media (min-width: $desctopScr) {
+    display: flex;
+  }
+}
+
+.page--icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(/src/img/buttons/expand.svg);
+  background-repeat: no-repeat;
+}
+
+.rotate--180 {
+  transform: rotate(180deg);
+}
+
+.page--text {
+  padding-left: 8px;
+  color: $mainText;
+  font-family: 'TTlakes';
+  font-size: $mainFontSize;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.OffMobile {
+  @media (min-width: $desctopScr) {
+    display: none !important;
+  }
+
+  @media (min-width: $bigDesctopScr) {
+    display: flex !important;
+  }
+}
+
+.OffDescktop {
+  @media (min-width: $bigDesctopScr) {
+    display: none !important;
+  }
+}

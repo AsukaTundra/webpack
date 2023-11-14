@@ -1,0 +1,20 @@
+.block__header {
+  border-top: 1px solid #d9fff5;
+  background: linear-gradient(-270deg, #f8f8f8 0%, #fff 98.61%);
+
+  @media (min-width: $bigDesctopScr) {
+    border-radius: 6px;
+  }
+}
+
+.block--title {
+  color: $navText;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  padding: 16px 0 16px 24px;
+
+  @media (min-width: $bigDesctopScr) {
+    padding-left: 32px;
+  }
+}

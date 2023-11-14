@@ -26,11 +26,11 @@
     }
   }
 
-  .page__about {
+  .block {
     margin-bottom: 26px;
   }
 
-  .page__brands {
-    margin-bottom: 26px;
+  .block:last-child {
+    margin-bottom: 40px;
   }
 }

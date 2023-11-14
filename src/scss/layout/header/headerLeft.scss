@@ -1,25 +1,26 @@
 .header__left {
   display: flex;
+  min-width: 180px;
 
   .left__button {
-    margin-left: 16px;
-    background-image: url(/src/img/header/left/burger.svg);
+    margin-left: 15px;
+    background-image: url(/src/img/buttons/burger.svg);
     order: 0;
   }
 
   .left__link {
-    width: 96.548px;
-    height: 50.815px;
-    margin: 18.59px 0 0 16.73px;
+    width: 96px;
+    height: 50px;
+    margin: 18px 0 0 15px;
     order: 1;
 
     @media (min-width: $desctopScr) {
-      margin-left: 20.73px;
+      margin-left: 20px;
     }
   }
 
   .left--border {
-    margin: 28px 0 0 16.73px;
+    margin: 28px 0 0 15px;
     order: 1;
 
     @media (min-width: $desctopScr) {

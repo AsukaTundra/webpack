@@ -1,23 +1,32 @@
-@import './base/fonts.scss';
 @import './base/global.scss';
+@import './base/fonts.scss';
 
 @import './layout/header/header.scss';
 @import './layout/header/headerLeft.scss';
 @import './layout/header/headerCenter.scss';
 @import './layout/header/headerRight.scss';
 
+@import './layout/nav/nav.scss';
+@import './layout/nav/navHeader.scss';
+@import './layout/nav/navMenu.scss';
+@import './layout/nav/navFooter.scss';
+
 @import './layout/page/page.scss';
+
+@import './layout/page/components/header.scss';
+@import './layout/page/components/button.scss';
+@import './layout/page/components/buyButton.scss';
 
 @import './layout/page/about/aboutServices.scss';
 @import './layout/page/about/aboutContent.scss';
 
-@import './layout/page/brands/brandsHeader.scss';
 @import './layout/page/brands/brandsSwiper.scss';
-@import './layout/page/brands/brandsButton.scss';
 
-@import './layout/page/types/typesHeader.scss';
 @import './layout/page/types/typesSwiper.scss';
-@import './layout/page/types/typesButton.scss';
+
+@import './layout/page/price/priceSwiper.scss';
+@import './layout/page/price/priceTable.scss';
+@import './layout/page/price/priceNote.scss';
 
 @import './layout/swiper/swiperCore.scss';
 

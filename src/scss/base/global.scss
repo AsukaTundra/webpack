@@ -13,10 +13,14 @@ $bigDesctopScr: 1120px;
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 310px;
   font-family: 'TTLakes', sans-serif;
   background-color: $backgroundColor;
   color: $mainText;
+
+  .dspl--none {
+    display: none;
+  }
 }
 
 ul,
@@ -37,6 +41,10 @@ h6 {
   padding: 0px;
 }
 
-.dspl--none {
-  display: none !important;
+.txt--off,
+.txt--off:active,
+.txt--off:hover,
+.txt--off {
+  text-decoration: none;
+  color: #666;
 }

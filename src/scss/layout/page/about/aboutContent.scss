@@ -41,8 +41,9 @@
     }
   }
 
-  .content__button {
+  .content__link {
     display: flex;
+    width: 150px;
     margin: 0 0 16px 16px;
     height: 24px;
   }
@@ -50,7 +51,7 @@
   .content--icon {
     width: 24px;
     height: 24px;
-    background-image: url(/src/img/about/expand.svg);
+    background-image: url(/src/img/buttons/expand.svg);
     background-repeat: no-repeat;
   }
 

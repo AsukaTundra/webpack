@@ -1,0 +1,56 @@
+.page__price {
+  .swiper {
+    height: 260px;
+
+    @media (min-width: $desctopScr) {
+      display: none;
+    }
+  }
+
+  .swiper-slide {
+    max-width: 260px;
+    margin-right: 16px;
+  }
+
+  .swiper-item {
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    width: 260px;
+
+    @media (min-width: $desctopScr) {
+      width: 260px;
+    }
+  }
+
+  .swiper-text {
+    margin: 16px 0 0 16px;
+    color: $mainText;
+    font-size: $optFontSize;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  .swiper .price__button {
+    position: absolute;
+    margin: 152px 0 0 125px;
+  }
+
+  .name {
+    margin: 16px 0 2px 16px;
+    color: $navText;
+    font-size: $optFontSize;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+  }
+
+  .value {
+    margin-left: 16px;
+    font-size: $optFontSize;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+  }
+}

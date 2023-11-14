@@ -1,0 +1,27 @@
+.nav__header {
+  margin: 0 0 50px 0;
+
+  .nav__header--button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button--burger {
+    background-image: url(/src/img/buttons/burger-close.svg);
+    margin: 24px 16px 0 24px;
+  }
+
+  .button--search {
+    background-image: url(/src/img/buttons/search.svg);
+    margin: 24px 24px 0 0;
+  }
+
+  .nav__header--link {
+    margin: 18px auto 0 0;
+  }
+
+  .nav__header--link img {
+    width: 97px;
+    height: 51px;
+  }
+}
