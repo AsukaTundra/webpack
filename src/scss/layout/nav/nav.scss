@@ -1,8 +1,25 @@
 .nav {
+  display: none;
   position: relative;
+  background-color: $focusColor;
   color: $mainText;
   width: 320px;
-  height: 100vh;
   min-height: 800px;
-  box-shadow: -150px 100px 500px 50px #6b7b84;
+
+  @media (min-width: 1440px) {
+    display: block;
+    position: absolute;
+    top: -42px;
+    bottom: 0;
+  }
+  .nav__container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .nav__blur {
+    display: none;
+  }
 }

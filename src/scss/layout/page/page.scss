@@ -4,12 +4,25 @@
 
   @media (min-width: 1440px) {
     margin-top: 42px;
+    margin-left: 320px;
   }
 
+  .block {
+    margin-bottom: 26px;
+  }
+
+  .block:last-child {
+    margin-bottom: 40px;
+  }
+}
+
+.page__title {
+  display: flex;
+  margin-bottom: 24px;
+
   .page--title {
-    margin-bottom: 24px;
     padding-left: 16px;
-    background-image: url(/src/img/about/highlight.svg);
+    background-image: url(/src/img/decorations/highlight.svg);
     background-repeat: no-repeat;
     font-size: 28px;
     font-weight: 700;
@@ -25,12 +38,35 @@
       background-image: none;
     }
   }
+}
 
-  .block {
-    margin-bottom: 26px;
+.page__container {
+  display: flex;
+  margin-left: auto;
+  margin-right: 24px;
+
+  .page__button {
+    display: none;
+    margin-top: 0;
+    margin-left: 32px;
+    padding-right: 48px;
+    height: auto;
+    color: $mainText;
+    font-family: 'TTLakes';
+    font-size: $mainFontSize;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    background-image: url(/src/img/buttons/repair.svg);
+    background-repeat: no-repeat;
+    background-position: 99% 100%;
+
+    @media (min-width: 1440px) {
+      display: block;
+    }
   }
 
-  .block:last-child {
-    margin-bottom: 40px;
+  .status {
+    background-image: url(/src/img/buttons/checkstatus.svg);
   }
 }

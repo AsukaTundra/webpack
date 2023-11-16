@@ -2,16 +2,13 @@
   margin-left: 24px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: 0px;
+  margin-top: auto;
 
-  .nav__footer__menu {
+  .footer__menu {
     font-size: 0;
   }
 
   .footer--button {
-    width: 40px;
-    height: 40px;
     margin: 0 16px 16px 0;
   }
 
@@ -43,7 +40,7 @@
     margin-bottom: 40px;
   }
 
-  .nav__footer__lang {
+  .footer__lang {
     font-size: 0;
   }
 

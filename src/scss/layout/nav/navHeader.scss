@@ -1,14 +1,13 @@
 .nav__header {
+  display: flex;
   margin: 0 0 50px 0;
-
-  .nav__header--button {
-    width: 40px;
-    height: 40px;
-  }
 
   .button--burger {
     background-image: url(/src/img/buttons/burger-close.svg);
-    margin: 24px 16px 0 24px;
+    margin: 24px 16px 0 15px;
+    @media (min-width: 1440px) {
+      display: none;
+    }
   }
 
   .button--search {
@@ -16,11 +15,15 @@
     margin: 24px 24px 0 0;
   }
 
-  .nav__header--link {
+  .header--link {
     margin: 18px auto 0 0;
+
+    @media (min-width: 1440px) {
+      margin: 30px auto 0 22px;
+    }
   }
 
-  .nav__header--link img {
+  .header--link img {
     width: 97px;
     height: 51px;
   }

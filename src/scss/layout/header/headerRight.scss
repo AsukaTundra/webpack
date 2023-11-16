@@ -8,7 +8,7 @@
 
   .right--border {
     display: none;
-    margin: 28px 0 0 20px;
+    margin: 28px 0 0 16px;
 
     @media (min-width: $desctopScr) {
       display: block;
@@ -17,7 +17,7 @@
 
   .right__button:nth-child(2) {
     background-image: url(/src/img/buttons/repair.svg);
-    margin-left: 20px;
+    margin-left: 16px;
   }
 
   .right__button:nth-child(3) {
