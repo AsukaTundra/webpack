@@ -293,11 +293,11 @@ h6 {
   .nav__footer .footer--button {
     margin: 0 16px 16px 0; }
   .nav__footer .footer--button--telephone {
-    background-image: url(/src/img/buttons/call.svg); }
+    background-image: url(./src/img/buttons/call.svg); }
   .nav__footer .footer--button--message {
-    background-image: url(/src/img/buttons/chat.svg); }
+    background-image: url(./src/img/buttons/chat.svg); }
   .nav__footer .footer--button--profile {
-    background-image: url(/src/img/buttons/profile.svg); }
+    background-image: url(./src/img/buttons/profile.svg); }
   .nav__footer .footer--p--mail {
     font-size: 16px;
     font-weight: 500;
