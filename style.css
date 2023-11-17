@@ -180,12 +180,12 @@ h6 {
       display: flex;
       margin-left: auto; } }
   .header__center .center__button:nth-child(1) {
-    background-image: url(./src/img/buttons/call.svg); }
+    background-image: url(/src/img/buttons/call.svg); }
   .header__center .center__button:nth-child(2) {
-    background-image: url(./src/img/buttons/chat.svg);
+    background-image: url(/src/img/buttons/chat.svg);
     margin-left: 16px; }
   .header__center .center__button:nth-child(3) {
-    background-image: url(./src/img/buttons/profile.svg);
+    background-image: url(/src/img/buttons/profile.svg);
     margin-left: 16px; }
 
 .header__right {
