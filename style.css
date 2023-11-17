@@ -155,7 +155,7 @@ h6 {
   min-width: 180px; }
   .header__left .left__button {
     margin-left: 15px;
-    background-image: url(./src/img/buttons/burger.svg);
+    background-image: url(src/img/buttons/burger.svg);
     order: 0; }
   .header__left .left__link {
     width: 90px;
